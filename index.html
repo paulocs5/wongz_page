@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>WONGZ</title>
+      <link rel="stylesheet" href="style.css"> 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+<body>
+      <div class="nav-bar">
+                  <a href="#topPage">About</a>
+                  <a href="#discography">Discography</a>
+                  <a href="#about">Meet the team</a>
+                  <a href="#about">Contact</a>
+      </div> 
+
+      <div class="about-section" id="topPage">
+            <div class="content"> 
+                  <h1>WONGZ</h1>
+                 <button class="learn-more-button" onclick="toggleParagraphs()">Learn More</button>
+                 <div class="paragraphs hidden">
+                        <p>Hailing from Ecuador, WONGZ is redefining Latin music with electrifying rhythms and soulful lyrics that resonate across borders.
+                        Inspired by iconic artists from the urban genre Adrian and Ladoblev bring a fresh perspective to the Latin pop genre. Their music is a celebration of culture, passion, and the transformative power of sound.</p>
+                        <p>
+                              Adrian and Ladoblev believe in the unity of rhythm and storytelling, crafting tracks that not only make you move but also make you feel. Their journey from local talent to rising stars symbolizes the heart of
+                              Latin pop—breaking barriers and reaching hearts worldwide. Join WONGZ as they ignite a new era of music that speaks to the soul and dances through generations.
+                        </p>
+                 </div>
+            </div>
+      </div>
+
+      <div class="discography-section" id="discography"> 
+            <h2>Discography</h2>
+            <div class="discography-flex">
+                  <div class="song-card">
+                        <img src="./images/quierollevarte.png" alt="Quiero Llevarte" class="song-image">
+                              <a href="https://www.youtube.com/watch?v=g8VRg865W7k&list=OLAK5uy_mv1oKhvcA_2lKZL6MR41I_M7dW1MnjoD8" target="_blank">Quiero Llevarte</a>
+                  </div>
+                       
+                  <div class="song-card">
+                        <img src="./images/thf.png" alt="THF" class="song-image">
+                        <a href="https://www.youtube.com/watch?v=KKRbhxvPc5g&list=OLAK5uy_mLweQjfl9aneWcRKL2RyxSYhQQGEjxXhc" target="_blank">THF</a> 
+                  </div>
+                       
+                  <div class="song-card">
+                        <img src="./images/entrelas4.png" alt="Entre las 4" class="song-image">
+                        <a href="https://www.youtube.com/watch?v=Rrii-kjww6E" target="_blank">Entre las 4</a>
+                  </div>
+
+                  <div class="song-card">
+                        <img src="./images/ennewyork.png" alt="En New York" class="song-image">
+                        <a href="https://www.youtube.com/watch?v=KnIN9n9XfQ0&list=OLAK5uy_lm6iUT7u-xoDTLI9Isvv02tyM44yaqqwI" target="_blank">En New York</a>
+                  </div>
+
+                  <div class="song-card">
+                        <img src="./images/cel.png" alt="Cel" class="song-image">
+                        <a href="https://www.youtube.com/watch?v=Gy0VheEdGss&list=OLAK5uy_nemXaqpBWpJO2_C6mKSjZTZCY9oZw2KrU" target="_blank">Entre las 4</a>
+                  </div>
+                       
+                  <div class="song-card">
+                        <img src="./images/splash.png" alt="Splash" class="song-image">
+                        <a href="https://www.youtube.com/watch?v=Rrii-kjww6E" target="_blank">Splash</a>
+                  </div>
+                      
+                  <div class="song-card">
+                        <img src="./images/sitevuelvoaver.png" alt="Si Te Vuelvo a Ver" class="song-image">
+                        <a href="https://www.youtube.com/watch?v=qN_Zz3VarGk&list=OLAK5uy_mQ1UD00c3_sMFj9-EODAP7yYD5fy0x2EM" target="_blank">Si Te Vuelvo a Ver</a>
+                  </div>
+                  
+            </div>
+      </div>
+
+      <div class="contact-section" id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <p id="formStatus"></p>
+        </div>
+        
+      <script src="script.js"></script>
+      
+</body>
+</html>
