@@ -5,7 +5,21 @@ body {
       padding: 0;
       font-family: "Audiowide", sans-serif;
       height: 100vh;
+      animation: fadeIn 1.5s ease-in-out forwards;
+}
 
+/* Fade In transition Part for body element*/
+
+@keyframes fadeIn { 
+      0% {
+            opacity: 0;
+            transform: translateY(20px);
+      }
+      100% {
+            opacity: 1;
+            transform: translateY(0);
+      }
+      
 }
 
 /* About section with title and button to learn more */
